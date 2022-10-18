@@ -1,0 +1,102 @@
+<!doctype>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lan ES=ES>
+     <meta charset="Página creada por Dmorga1">
+        <title>
+        Ejercicio 10. Escribir el código HTML correspondiente a una web en la que se muestre tu horario. <br>
+        Para ello, habrá que utilizar una tabla de 8 filas y 6 columnas en la que los días de la semana <br>
+        y las horas aparecerán en celdas de encabezado de la primera fila y la primera columna, respectivamente.<br>
+        Además, en la fila quinta se unirán todas lasceldas, excepto la primera, y se mostrará en ellas la palabra RECREO. <br>
+        Igualmente, se unirán las celdas contiguas de una misma columna que contengan un mismomódulo. He aquí un ejemplo similar:
+        </title>
+        <style>
+            table, th, td {
+              border:1px solid black;
+            }
+            </style>
+        <body>
+            
+            <h2>--------------------horario de clases 1º DAM A-------------------- </h2>
+            
+
+                <h2>HORARIO DE CLASES 1º DAM A</h2>
+                
+                <table style="width:100%">
+                  <tr>
+                    <th>Horas</th>
+                    <th>lunes</th>
+                    <th>martes</th>
+                    <th>miercoles</th>
+                    <th>jueves</th>
+                    <th>viernes</th>
+                  </tr>
+                  
+                  <tr>
+                    <th rowspan="2">8.15 - 9.15</th>
+                    <th rowspan="2">Bases de datos</th>
+                    <th rowspan="2">Bases de datos</th>
+                    <th rowspan="2">Programacion</th>
+                    <th rowspan="2">Programacion</th>
+                    <th rowspan="2">Sistemas informaticos</th>
+                    
+                    <td>Bases de datos</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Bases de datos</td>
+                    <td>Programacion</td>
+                    <td>Programacion</td>
+                    <td>Sistemas informaticos</td>
+                    <td>Bases de datos</td>
+                  </tr>
+                  <tr>
+                    <th>10.15 - 11.15</th>
+                    <td>Programacion</td>
+                    <td>Lenguaje de marcas</td>
+                    <td>Bases de datos</td>
+                    <td>Entornos de desarrollo</td> 
+                    <td>Programacion</td>
+                  </tr>
+                  <tr>
+                    <th>11.15 - 11.45</th>
+                    <td>Recreo</td>
+                    <td>Recreo</td>
+                    <td>Recreo</td>
+                    <td>Recreo</td>
+                    <td>Recreo</td>
+                  </tr>
+                  <tr>
+                    <th>11.45 - 12.45</th>
+                    <td>Programacion</td>
+                    <td>Lenguaje de marcas</td>
+                    <td>Bases de datos</td>
+                    <td>Lenguaje de marcas</td>
+                    <td>Programacion</td>
+                  </tr>
+                  <tr>
+                    <th>12.45 - 13.45</th>
+                    <td>Entornos de desarrollo</td>
+                    <td>Sistemas informaticos</td>  
+                    <td>Lenguaje de marcas</td> 
+                    <td>Sistemas informaticos</td>  
+                  </tr>
+                  <tr>
+                    <th>13.45 - 14.45</th>
+                    <td>Sistemas informaticos</td>
+                    <td>Sistemas informaticos</td>
+                    <td>Sistemas informaticos</td>
+                    <td>Programacion</td>
+                    <td>Sistemas informaticos</td>
+                    
+            
+                  </tr>
+                    
+                </table>
+                
+                </body>
+
+        </body>
+
+</html>
