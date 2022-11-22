@@ -1,0 +1,10 @@
+h2 {
+    /* defino el color de fondo y justifico el texto de h2 centrado */
+    background-color: peachpuff;
+    text-align: center; 
+}
+
+p{
+    /* le pongo un borde y le doy formato de ancho*/
+    border: 2px solid Tomato; width: 1300px;
+}
