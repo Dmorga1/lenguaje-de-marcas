@@ -1,0 +1,42 @@
+#parrafo1{
+    
+text-align: left;
+text-indent: 30px;
+width: 750px;
+line-height: 20px;
+font-style: italic;
+font-size: small;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#parrafo1::first-letter{
+font-size: 3em;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#parrafo2{
+text-align: right;
+text-indent: 30px;
+width: 1200px;
+line-height: 40px;
+font-style: oblique;
+font-size: medium;
+font-family: sans-serif;
+}
+#parrafo2::first-letter{
+font-size: 4em;
+font-family:sans-serif;
+
+}
+#parrafo3{
+text-align: center;
+text-indent: 30px;
+width: 900px;
+line-height: 50px;
+font-style: inherit ;
+font-size: large;
+font-family: 'Courier New', Courier, monospace;
+}
+#parrafo3::first-letter{
+font-size: 2em;
+font-family: 'Courier New', Courier, monospace;
+}
