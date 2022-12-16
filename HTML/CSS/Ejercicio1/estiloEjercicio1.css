@@ -1,0 +1,22 @@
+h1{
+    font-size: 4em;
+    color : green;
+}
+
+
+h2 {
+    /* defino el color de fondo y justifico el texto de h2 centrado */
+    background-color: peachpuff;
+    font-size: 3em;
+    text-align: center; 
+    color: blueviolet;
+}
+
+h3{
+    font-size: 2em;
+    color : orange;
+}
+p{
+    /* le pongo un borde y le doy formato de ancho*/
+    border: 2px solid Tomato; width: 100%;
+}
