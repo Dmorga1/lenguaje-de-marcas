@@ -1,0 +1,14 @@
+div.uno{
+    width: 50%;
+    border: solid black;
+    font-size: 1em;}
+
+div.dos{
+    width: 33%;
+    border: solid red;
+    font-size: 1.2em;}
+
+div.tres{
+    width: 25%;
+    border: solid blue;
+    font-size: 0.8em;}
