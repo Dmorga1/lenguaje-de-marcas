@@ -1,0 +1,24 @@
+#elementos1{
+    text-indent: 30px;
+}
+
+#elementos2{
+    text-indent: 30px;
+}
+
+#elementos3{
+    text-indent: 30px;
+}
+
+#elementoUl1{
+    list-style-position: inside;
+    list-style-image: url(viñeta.png);
+}
+#elementoUl2{
+    list-style-position: inside;
+    list-style-image: url(viñeta.png);
+}
+#elementoUl3{
+    list-style-position: inside;
+    list-style-image: url(viñeta.png);
+}
