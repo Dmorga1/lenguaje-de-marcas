@@ -1,0 +1,20 @@
+#contenedor{
+    background-color: bisque;
+    width: 200px;
+}
+
+#cabecera{
+    position: absolute; left: 0px; width: 100%; height: 250px;
+    background-color: cadetblue;
+}
+
+#capaIzquierda{
+    position: absolute; top: 100px; left: 0px; width: 20%; height: 400px;
+    background-color: chocolate;
+}
+
+#capaDerecha{
+    position: absolute; top: 100px; left: 20%; height: 400px;
+    background-color: thistle;
+    overflow:scroll; height:400px; width:80%;
+}
