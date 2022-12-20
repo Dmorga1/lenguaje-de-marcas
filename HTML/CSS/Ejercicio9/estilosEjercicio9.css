@@ -1,0 +1,29 @@
+#contenedor{
+    width: 100%; background-color: grey;
+}
+
+#cabecera{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+#columna1{
+    top: 100px;
+    float: left;
+    width: 66%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: brown;
+}
+#columna2{
+    float: right;
+    width: 33%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: cadetblue;
+}
+#pie{
+    width: 100%;
+    height: 200px;
+    margin-top: 5em;
+}
