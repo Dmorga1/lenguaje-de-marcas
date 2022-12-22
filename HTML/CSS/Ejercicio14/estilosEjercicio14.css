@@ -1,0 +1,41 @@
+#capaNavegacion{
+    position: absolute;
+    background-color: burlywood;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.button {
+    background-color: grey;
+    border-color: darkgreen;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    
+  }
+  
+  a:link {
+    color: #265301;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #CDFEAA;
+  }
