@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">
+        T E L E G U I S O
+    </h1>
+    <h2 style="text-align: center;">
+        Formulario para pedidos online
+    </h2>
+
+    <form>
+        <fieldset>
+            <legend><b>Datos personales y de envio del pedido:</b></legend>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" value=""><br><br>
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" id="Apellidos" name="Apellidos" value=""><br><br>
+            <label for="Domicilio">Domicilio:</label>
+            <input type="text" id="Domicilio" name="Domicilio" value=""><br><br>
+            <label for="Localidad">Localidad:</label>
+            <input type="text" id="Localidad" name="Localidad" value=""><br><br>
+            <label for="Codigo Postal">Codigo Postal:</label>
+            <input type="text" id="Codigo Postal" name="Codigo Postal" value=""><br><br>
+            <label for="Telefono">Telefono:</label>
+            <input type="tel" id="Telefono" name="Telefono" value=""><br><br>
+            <label for="Correo Electronico">Correo Electronico:</label>
+            <input type="email" id="Correo Electronico" name="Correo Electronico" value=""><br><br>
+
+        </fieldset>
+    </form><br>
+
+    <form>
+        <fieldset>
+            <legend><b>Opciones de entrega de pedido:</b></legend>
+              <input type="radio" id="Recogida en local" name="Opcion de Recogida" value="Recogida en local">
+              <label for="Recogida en local">Recogida en local</label><br>
+              <input type="radio" id="Entrega en domicilio" name="Opcion de Recogida" value="Entrega en domicilio">
+              <label for="Entrega en domicilio">Entrega en domicilio</label><br>
+        </fieldset>
+    </form><br>
+
+    <form>
+        <fieldset>
+            <legend><b>Ofertas o folletos publicitarios:</b></legend>
+            <input type="checkbox" id="domicilio" name="domicilio" value="domicilio">
+            <label for="domicilio"> Envio a domicilio</label><br>
+            <input type="checkbox" id="correo" name="correo" value="correo">
+            <label for="correo"> Envio por Correo electronico</label><br>
+            <input type="checkbox" id="no enviar" name="no enviar" value="no enviar">
+            <label for="no enviar"> No enviar ofertas o folletos</label><br><br>
+        </fieldset>
+    </form><br>
+
+    <form>
+        <fieldset>
+            <legend><b>Seleccione tipo de racion</b></legend>
+            <label for="racion">Tipo de racion:</label>
+            <select id="racion" name="racion">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Individual">Individual</option>
+                <option value="familiar">Familiar</option>
+            </select>
+
+            <legend><b>Seleccione numero de raciones</b></legend>
+            <label for="numero">Numero de raciones:</label>
+            <select id="numero" name="numero">
+                <option value="Seleccione">Seleccione</option>
+                <option value="1">1 individual</option>
+                <option value="2">2 individuales</option>
+                <option value="3">3 individuales</option>
+                <option value="4">4 individuales</option>
+                <option value="5">5 individuales</option>
+                <option value="6">6 individuales</option>
+                <option value="1f"> 1 familiar</option>
+                <option value="2f"> 2 familiares</option>
+                <option value="3f"> 3 familiares</option>
+            </select>
+            <label style="position:absolute;left:350px;"> Una racion familiar es para cuatro personas</label>
+        </fieldset>
+    </form><br>
+
+    <form>
+        <fieldset>
+            <legend><b>Seleccione tipo de guiso</b></legend>
+            <label for="tipo">Tipo de guiso:</label>
+            <select id="tipo" name="tipo" size="4" multiple>
+                <option value="Cerdo">Cerdo</option>
+                <option value="Ternera">Ternera</option>
+                <option value="Pulpo">Pulpo</option>
+                <option value="Pescado">Pescado</option>
+                <option value="Verduras">Verduras</option>
+                <option value="Pollo">Pollo</option>
+            </select>
+            <label style="position:absolute;top: 850px; left:350px;"> Presione Ctrl + clic para seleccion multiple</label>
+        </fieldset>
+    </form><br>
+    <form>
+        <legend><b>Observaciones (alergias, intolerancias, vegetariano...)</b></legend>
+        <textarea name="message" rows="10" cols="100"></textarea>
+        <br><br>
+       
+    </form><br>
+
+
+    <input type="submit" value="Aceptar">
+</body>
+
+</html>
