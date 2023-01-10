@@ -34,6 +34,7 @@
     overflow-y: scroll;
     height: 750px;
     width: 80%;
+    padding-left: 20px;
 
 }
 
@@ -72,6 +73,5 @@
     text-align: left;
     color: whitesmoke;
     font-size: x-large;
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif
 }
