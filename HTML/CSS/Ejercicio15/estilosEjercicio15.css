@@ -1,8 +1,8 @@
-#capaNavegacion{
+#capaCabecera{
     position: absolute;
     background-color: burlywood;
-    height: 100%;
-    width: 20%;
+    height: 30%;
+    width: 100%;
     text-align: center;
     padding-top: 30px;
 }
